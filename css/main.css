@@ -33,6 +33,10 @@ h1 {
    margin-top: 5%;
 }
 
+.get-compliment:focus {
+  outline: 0;
+}
+
 #compliment {
   font-size: 30px;
   color: #fff;
@@ -43,8 +47,6 @@ h1 {
 
 .footer {
   text-align: center;
-  z-index: 1;
-  position: relative;
   margin-top: 5%;
 }
 
