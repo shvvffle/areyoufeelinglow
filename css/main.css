@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700|Montserrat:400,700);
+
+body {
+  background: rgb(231, 35, 94);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+
+.compliment-header, #compliment {
+  margin-top: 5%;
+}
+
+.compliment-zone, #compliment {
+  text-align: center;
+}
+
+.compliment-zone > button {
+  font-size: 25px;
+}
+
+.get-compliment {
+   font-size: 100px;
+   cursor: pointer;
+   margin-top: 5%;
+}
+
+#compliment {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5%;
+  height: 200px;
+}
+
+.footer {
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  margin-top: 5%;
+}
+
+.goodbye, .copyright {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 10px;
+  margin-top: 15px;
+}
+
+a.social {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+a.social:hover {
+  color: #F26A93;
+}
