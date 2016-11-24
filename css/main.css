@@ -30,19 +30,16 @@ h1 {
 .get-compliment {
    font-size: 100px;
    cursor: pointer;
-   margin-top: 5%;
+   margin-top: 10%;
 }
 
-.get-compliment:focus {
-  outline: 0;
-}
 
 #compliment {
   font-size: 30px;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   margin-top: 5%;
-  height: 200px;
+  height: 140px;
 }
 
 .footer {
