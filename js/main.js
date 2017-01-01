@@ -109,9 +109,18 @@ $(document).ready(function() {
 
     document.getElementById("compliment").innerHTML = compliments[randomCompliments];
   }
-  
+
   $('.get-compliment').on('click', function(event) {
     event.preventDefault();
     generateCompliment();
   });
 });
+
+
+// update footer copyright year
+
+var today = new Date();
+var year = today.getFullYear();
+
+var copyright = document.getElementById("copyright");
+copyright.innerHTML = '© Marina Marques '+ year;
