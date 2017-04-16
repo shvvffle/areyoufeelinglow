@@ -1,88 +1,60 @@
 body {
-  background: rgb(231, 35, 94);
-  font-family: 'Roboto', sans-serif;
+    background: rgb(231, 35, 94);
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
-  font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
 }
 
-.compliment-header, #compliment {
-  margin-top: 5%;
+.container {
+    width: 100%;
+    text-align: center;
 }
 
-.compliment-zone, #compliment {
-  text-align: center;
+.compliment-zone p {
+    font-size: 20px;
+    margin-top: 30px;
 }
 
-.compliment-zone > button {
-  font-size: 25px;
-}
-
-.get-compliment {
-   font-size: 100px;
-   cursor: pointer;
-   margin-top: 10%;
-}
-
-.emoji {
+.get-compliment img {
     width: 10%;
+    cursor: pointer;
 }
 
-
-#compliment {
-  font-size: 30px;
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 5%;
-  height: 140px;
+footer {
+    text-align: center;
+    font-weight: 200;
+    font-size: 13px;
+    position: fixed;
+    bottom: 3px;
+    width: 100%;
+    min-height: 50px;
 }
 
-.footer {
-  text-align: center;
-  margin-top: 5%;
+footer a.social {
+    font-size: 25px;
+    color: #fff;
 }
 
-.goodbye, #copyright {
-  color: #fff;
-  font-size: 14px;
-  text-align: center;
+footer a.social:hover {
+    color: #F26A93;
 }
-
-#copyright {
-  font-size: 10px;
-  margin-top: 15px;
-}
-
-a.social {
-  font-size: 25px;
-  color: #fff;
-  text-align: center;
-}
-
-a.social:hover {
-  color: #F26A93;
-}
-
 
 @media only screen and (max-width: 500px) {
-
-  .emoji {
-    width: 50%;
-  }
-
-  #compliment {
-    max-height: 300px;
-  }
-
-  .footer {
-    margin-top: 30%;
-  }
-
+    h1 {
+        font-size: 20px;
+    }
+    .get-compliment img {
+        width: 50%;
+    }
+    .compliment-zone p {
+        font-size: 15px;
+    }
 }
