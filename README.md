@@ -6,7 +6,6 @@ Compliment generator for those rough days, when you really need something nice t
 
 <h2>Resources</h2>
 <ul>
-<li>Bootstrap</li>
 <li>jQuery</li>
 </ul>
 
